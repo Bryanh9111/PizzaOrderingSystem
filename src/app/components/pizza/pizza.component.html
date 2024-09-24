@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="card-header">
+    <h3>Select Pizza Size</h3>
+  </div>
+  <div class="card-body">
+    <div *ngFor="let size of pizzaSizes" class="form-check">
+      <input 
+        type="radio" 
+        class="form-check-input" 
+        [id]="size.name" 
+        name="pizzaSize" 
+        [value]="size.name"
+        (change)="selectSize(size)"
+        [checked]="size.name === selectedSize.name">
+      <label class="form-check-label" [for]="size.name">
+        {{size.name}} - ${{size.price}}
+      </label>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,72 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pizza-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.pizza-table th, .pizza-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.pizza-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.pizza-table thead tr:first-child th {
+  background-color: #e9ecef;
+}
+
+.pizza-table td:first-child {
+  text-align: left;
+}
+
+.pizza-table h4 {
+  margin: 10px 0;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+.order-summary {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.order-summary th, .order-summary td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-summary th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.order-summary tfoot td {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}

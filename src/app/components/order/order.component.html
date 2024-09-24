@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-header">
+    <h3>Order Summary</h3>
+  </div>
+  <div class="card-body">
+    <p><strong>Pizza Size:</strong> {{ selectedSize.name }} - ${{ selectedSize.price }}</p>
+    <hr>
+    <h5>Toppings:</h5>
+    <ul>
+      <li *ngFor="let topping of selectedToppings">
+        {{topping.name}} - ${{topping.price}}
+      </li>
+    </ul>
+    <hr>
+    <p><strong>Total:</strong> ${{ total }}</p>
+    <p><strong>Offer Applied:</strong> {{ offer }}</p>
+  </div>
+</div>
+  

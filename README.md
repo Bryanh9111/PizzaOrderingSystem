@@ -1,27 +1,42 @@
-# PizzaOrderingSystem
+# Pizza Ordering System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+## Description
+The Pizza Ordering System is a web application that allows users to customize and order pizzas.
 
-## Development server
+## Features
+- Select pizza size (Small, Medium, Large, Extra Large)
+- Choose from a variety of veg and non-veg toppings
+- View order summary with total price and applied offers
+- Promotional offers:
+  - Offer 1: 1 Medium Pizza with 2 toppings = $5
+  - Offer 2: 2 Medium Pizzas with 4 toppings each = $9
+  - Offer 3: 1 Large Pizza with 4 toppings (50% discount)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Bryanh9111/PizzaOrderingSystem.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd PizzaOrderingSystem
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Run the application:
+    ```bash
+    ng serve
+    ```
+5. Open your browser and navigate to `http://localhost:4200`.
 
-## Code scaffolding
+## Usage
+1. Select the size of the pizza.
+2. Choose the desired toppings by checking the checkboxes.
+3. Click the "Add to Order" button to add the pizza to the order summary.
+4. View the order summary with the total price and any applied offers.
+5. Repeat the process to add more pizzas to the order.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Contact
+If you have any questions or suggestions, feel free to contact me at [zhhlbaw2011@gmail.com].
